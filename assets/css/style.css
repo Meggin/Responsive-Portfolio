@@ -10,7 +10,8 @@ body {
 	line-height: 30px;
 	text-align: left;
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 1200px;
+	width: 960px;
+	vertical-align: middle;
 }
 
 header	{
@@ -20,7 +21,7 @@ header	{
 	color: #ffffff;
 	height: 100%;
 	width: 270px;
-	margin-left: 125px;
+	margin-left: 15px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -43,7 +44,7 @@ nav	{
 	width: 270px;
 	float: right;
 	text-align: center;
-	margin-right: 125px;
+	margin-right: 15px;
 }
 
 ul {
@@ -137,7 +138,7 @@ footer {
 	overflow: auto;
 	margin: 0 auto;
 	background-image: url("../images/background.png");
-	height: 600px;
+	height: 480px;
 	width: 100%;
 	border-bottom: 5px solid #4aaaa5;
 }
@@ -198,8 +199,8 @@ footer {
 	width: 270px;
 	top: 30px;
 	text-align: center;
-	margin-right: 125px;
-	margin-top: 30px
+	margin-right: 15px;
+	margin-top: 15px
 }
 
 #main-bio,
@@ -208,8 +209,8 @@ footer {
 	position: relative;
 	text-align: left;
 	width: 650px;
-	top: 30px;
-	margin-left: 125px;
+	top: 15px;
+	margin-left: 15px;
 	margin-bottom: 50px;
 }
 
@@ -234,4 +235,34 @@ footer {
 #project-portfolio {
 	padding: 15px;
 	height: 500px;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+
+
+  
+}
+
+/* 
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+
+
+  
+}
+
+/* 
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 640px) {
+
+
+  
 }
