@@ -11,6 +11,7 @@ body {
 	text-align: left;
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
 	width: 100%;
+	height: 100%;
 	margin: 0%;
 	vertical-align: middle;
 }
@@ -45,7 +46,7 @@ nav	{
 	width: 27%;
 	text-align: center;
 	float: right;
-	margin-right: 3%;
+	margin-right: 2%;
 }
 
 ul {
@@ -256,14 +257,19 @@ footer {
 @media screen and (max-width: 768px) {
 
 	#social-links {
+		clear: both;
 		float: left;
-		width: 100%;
+		overflow: auto 0;
+		width: 96%;
 		margin: 2%;
+		margin-right: 2%
 	}
 
 	#main-bio {
+		clear: both;
 		float: left;
-		width: 100%;
+		overflow: auto 0;
+		width: initial;
 		margin: 2%;
 	}
 }
@@ -275,28 +281,28 @@ footer {
 @media screen and (max-width: 640px) {
 	
 	header	{
-	float: left;
-	background-color: #4aaaa5;
-	border-bottom: none;
-	color: #ffffff;
-	height: 100%;
-	width: 100%;
-	margin-bottom: 0;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
-	vertical-align: middle;
-	padding-top: 2%;
-	margin-left: 0%;
-}
+		float: left;
+		background-color: #4aaaa5;
+		border-bottom: none;
+		color: #ffffff;
+		height: 100%;
+		width: 100%;
+		margin-bottom: 0;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: bold;
+		vertical-align: middle;
+		padding-top: 2%;
+		margin-left: 0%;
+	}
 
 	nav	{
-	clear: both;
-	width: 100%;
-	text-align: center;
-	float: left;
-	border-bottom: 2px solid #cccccc;
+		clear: both;
+		width: 100%;
+		text-align: center;
+		float: left;
+		border-bottom: 2px solid #cccccc;
 	}
 
 	.header-container {
@@ -304,14 +310,19 @@ footer {
 	}
 
 	#social-links {
+		clear: both;
 		float: left;
-		width: 100%;
+		overflow: auto 0;
+		width: 96%;
 		margin: 2%;
+		margin-right: 2%
 	}
 
 	#main-bio {
+		clear: both;
 		float: left;
-		width: 100%;
+		overflow: auto 0;
+		width: initial;
 		margin: 2%;
 	}
   
