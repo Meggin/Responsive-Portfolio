@@ -10,7 +10,8 @@ body {
 	line-height: 30px;
 	text-align: left;
 	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 960px;
+	width: 100%;
+	margin: 0%;
 	vertical-align: middle;
 }
 
@@ -20,8 +21,8 @@ header	{
 	border-bottom: none;
 	color: #ffffff;
 	height: 100%;
-	width: 270px;
-	margin-left: 15px;
+	width: 27%;
+	margin-left: 2%;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -41,10 +42,10 @@ h3	{
 }
 
 nav	{
-	width: 270px;
-	float: right;
+	width: 27%;
 	text-align: center;
-	margin-right: 15px;
+	float: right;
+	margin-right: 3%;
 }
 
 ul {
@@ -138,7 +139,7 @@ footer {
 	overflow: auto;
 	margin: 0 auto;
 	background-image: url("../images/background.png");
-	height: 480px;
+	height: 100%;
 	width: 100%;
 	border-bottom: 5px solid #4aaaa5;
 }
@@ -194,13 +195,14 @@ footer {
 }
 
 #social-links {
-	float: right;
 	padding: 10px;
-	width: 270px;
+	width: 27%;
 	top: 30px;
 	text-align: center;
-	margin-right: 15px;
-	margin-top: 15px
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%
 }
 
 #main-bio,
@@ -208,10 +210,10 @@ footer {
 #project-portfolio {
 	position: relative;
 	text-align: left;
-	width: 650px;
-	top: 15px;
-	margin-left: 15px;
-	margin-bottom: 50px;
+	width: 65%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
 }
 
 #main-bio {
@@ -239,30 +241,78 @@ footer {
 
 /* 
   These rules take effect when the browser's width
-  is either 980px or less.
+  is 769px or more.
 */
 @media screen and (max-width: 980px) {
+	
+	#social-links {
 
-
-  
 }
 
 /* 
   These rules take effect when the browser's width
-  is either 768px or less.
+  is 641px or more.
 */
 @media screen and (max-width: 768px) {
 
+	#social-links {
+		float: left;
+		width: 100%;
+		margin: 2%;
+	}
 
-  
+	#main-bio {
+		float: left;
+		width: 100%;
+		margin: 2%;
+	}
 }
 
 /* 
   These rules take effect when the browser's width
-  is either 768px or less.
+  is 640px or less.
 */
 @media screen and (max-width: 640px) {
+	
+	header	{
+	float: left;
+	background-color: #4aaaa5;
+	border-bottom: none;
+	color: #ffffff;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 2%;
+	margin-left: 0%;
+}
 
+	nav	{
+	clear: both;
+	width: 100%;
+	text-align: center;
+	float: left;
+	border-bottom: 2px solid #cccccc;
+	}
 
+	.header-container {
+	border-bottom: none;
+	}
+
+	#social-links {
+		float: left;
+		width: 100%;
+		margin: 2%;
+	}
+
+	#main-bio {
+		float: left;
+		width: 100%;
+		margin: 2%;
+	}
   
 }
