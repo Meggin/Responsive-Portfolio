@@ -1,4 +1,14 @@
 # Responsive-Portfolio
-A responsive portfolio site
+This is a template for a responsive portfolio website.
+It's based off [this basic version](https://github.com/Meggin/Basic-Portfolio),
+only now it behaves better across device sizes.
 
-Deployed: [https://guarded-reef-63247.herokuapp.com/](https://guarded-reef-63247.herokuapp.com/)
+Check out [the staged version](https://guarded-reef-63247.herokuapp.com/](https://guarded-reef-63247.herokuapp.com/).
+
+Feel free to fork and re-use:
+
+`git clone https://github.com/Meggin/Responsive-Portfolio.git`
+
+## Check out related version
+If you prefer to work with [Twitter Bootstrap](http://getbootstrap.com/),
+check out this similar responsive portfolio website: [https://github.com/Meggin/Bootstrap-Portfolio](https://github.com/Meggin/Bootstrap-Portfolio).
