@@ -320,6 +320,7 @@ footer {
 
 	.header-container {
 		border-bottom: none;
+		/* Position header static. */
 		z-index: -1;
 	}
 
